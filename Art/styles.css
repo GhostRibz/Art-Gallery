@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1000px; /* Adjust as needed */
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for logo and title */
+}
+
+.title-with-image {
+    position: relative; /* Ensure relative positioning */
+    display: inline-block; /* Display inline with the title */
+}
+
+.title-with-image img {
+    width: 50px; /* Adjust the size of the title image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing between image and title */
+    vertical-align: middle; /* Align vertically */
+}
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid green; /* Pink bottom border */
+    padding-bottom: 5px; /* Space between content and border */
+    display: inline-block; /* Ensures border spans only the width of the text */
+    color: green; /* Set text color to pink */
+}
+
+/* Additional CSS for image containers */
+.image-container {
+    margin: 20px; /* Adjust as needed */
+    display: inline-block;
+    position: relative;
+}
+
+.image-container img {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Limit maximum width to 100% of the container */
+    max-height: 400px; /* Set a maximum height */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Adjust scale factor for hover effect */
+}
+
+.image-container p {
+    color: black;
+    margin-top: 5px;
+}
+
+/* Rest of your CSS styles */
